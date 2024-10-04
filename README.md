@@ -7,6 +7,8 @@
 A customizable electron.js printing plugin specifically designed for thermal receipt printers.
 It supports 80mm, 78mm, 76mm, 58mm, 57mm, 44mm printers. It currently supports versions of electron >= 6.x.x
 
+## This is a fork of [electron-pos-printer](https://github.com/Hubertformin/electron-pos-printer)
+
 ### Installation
 ```bash
 $ npm install electron-pos-printer

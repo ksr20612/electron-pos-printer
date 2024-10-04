@@ -1,5 +1,5 @@
 {
-  "name": "electron-pos-printer",
+  "name": "@ksr20612/electron-pos-printer",
   "version": "1.3.6",
   "description": "Electron printer plugin for 80mm, 78mm, 76mm, 58mm, 57mm, 44mm printers",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hubertformin/electron-pos-printer.git"
+    "url": "git+https://github.com/ksr20612/electron-pos-printer"
   },
   "keywords": [
     "electron",
@@ -24,19 +24,10 @@
     "pos"
   ],
   "author": {
-    "name": "Hubert Formin",
-    "email": "hformin@gmail.com"
+    "name": "ksr20612",
+    "email": "ksr20612@daum.net"
   },
-  "contributors": [
-    "Sidnei Pacheco <sidnei.pacheco@seuguru.com.br>",
-    "Ulisses Constantini <ulisses@parseint.com.br>",
-    "Famous Ketoma <git+https://github.com/jfamousket>"
-  ],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hubertformin/electron-pos-printer/issues"
-  },
-  "homepage": "https://github.com/Hubertformin/electron-pos-printer#readme",
   "dependencies": {
     "jsbarcode": "^3.11.5",
     "qrcode": "^1.5.1"

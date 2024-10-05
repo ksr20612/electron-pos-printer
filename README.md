@@ -9,6 +9,27 @@ It supports 80mm, 78mm, 76mm, 58mm, 57mm, 44mm printers. It currently supports v
 
 ## This is a fork of [electron-pos-printer](https://github.com/Hubertformin/electron-pos-printer)
 
+- fix typing
+- can print base64-encoded images
+
+  ```
+  const data = [
+    {
+        type: 'image',
+        url: 'iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAB00lEQVR4nOzZvWtTYRTHca+EiC5CiINGQR3EgINCBBcxGVQQXxeRgILCjSgODkYHQULiomIManRQIQ5BUMGIEaUtbVNaUkpuC2lSQkpfKLShlFBKS+8QSvsPfPfDA+c7fp4uP85Q2us5Xa9uo3bZ79Htmo1euTCO3r38H/1JdBXdCf5Ev1ZeQ9+OalA6QDodIJ0OkM7Kt1fwIbIeRi+UJ9EvF5Lo9eFn6Icq39FH0l3oR67sQDf+AjpAOh0gnQ6QztN51MKH9PEH6I1bd9Gd9gH0qHMP/fYU//2Q2XMMfV/gD7rxF9AB0ukA6XSAdB53aBQf+sOf0Pe7z9H/hXvRd+b/oicuvUC/79+Nfv6Lg278BXSAdDpAOh0gnXXyThEfsrUsevEr/3xr71P0UDOC/qavB33g7Q/0i8FT6MZfQAdIpwOk0wHSWdUzC/hwovQRPfGNvycMHh5DP5vKoc9efYU+v/gOfSPP3w2Mv4AOkE4HSKcDpLNiM358WJoIovte8v95vI0Ouvv7KHr83EP0G8Wb6I9jPnTjL6ADpNMB0ukA6azPzdf4MB0qoUdT/Psh4H5At+fi6Adz19EzyU30qvcXuvEX0AHS6QDpdIB0WwEAAP//wKVqMiCWoX4AAAAASUVORK5CYII=',
+        position: 'center',                                 
+        width: '160px',                                        
+        height: '60px',                                        
+    }
+  ```
+
+- result
+  
+  ![image](https://github.com/user-attachments/assets/c8906c78-a8f8-443a-be73-579f71333343)
+
+
+---
+
 ### Installation
 ```bash
 $ npm install electron-pos-printer
